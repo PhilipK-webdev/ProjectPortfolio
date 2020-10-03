@@ -1,5 +1,10 @@
 const router = require("express").Router();
 const nodemailer = require('nodemailer');
+const path = require("path");
+router.get("/", (req, res) => {
+
+    res.sendFile(path.join(__dirname, "./client/index.html"));
+})
 
 router.post('/send', (req, res) => {
     const email = req.body.email;
@@ -16,8 +21,8 @@ router.post('/send', (req, res) => {
         host: "smtp.mailtrap.io",
         port: 2525,
         auth: {
-            user: "02607a87b1850b",
-            pass: "34637c1d2daafe"
+            user: "3af9e9ed273ac4",
+            pass: "63df18ecb229d9"
         },
         tls: {
             rejectUnauthorized: false
