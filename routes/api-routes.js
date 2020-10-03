@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const nodemailer = require('nodemailer');
-
+require('dotenv').config();
 
 router.post('/send', (req, res) => {
     const email = req.body.email;
@@ -8,16 +8,16 @@ router.post('/send', (req, res) => {
     const content = `email: ${email} \n message: ${message} `
     const mail = {
 
-        from: `"Example Team",<b0n3snapp3r@yahoo.com>`,
-        to: email,
-        message: content,
-        text: message
+        from: process.env.EMAIL,
+        to: process.env.PERSONAL,
+        message: message,
+        text: content
     }
     const transporter = nodemailer.createTransport({
         service: "gmail",
         auth: {
-            user: "philipk179@gmail.com",
-            pass: "b0n3snapp3r89"
+            user: process.env.EMAIL,
+            pass: process.env.PASSWORD
         },
         tls: {
             rejectUnauthorized: false
