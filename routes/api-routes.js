@@ -1,10 +1,6 @@
 const router = require("express").Router();
 const nodemailer = require('nodemailer');
-const path = require("path");
-router.get("/", (req, res) => {
 
-    res.sendFile(path.join(__dirname, "./client/index.html"));
-})
 
 router.post('/send', (req, res) => {
     const email = req.body.email;
