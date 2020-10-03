@@ -3,9 +3,11 @@ const nodemailer = require('nodemailer');
 require('dotenv').config();
 
 router.post('/send', (req, res) => {
+    const nameSender = req.body.name;
     const email = req.body.email;
+    const subject = req.body.subject;
     const message = req.body.message;
-    const content = `email: ${email} \n message: ${message} `
+    const content = `contact name:${nameSender} \n email: ${email}\n subject:${subject}\n message:\n ${message} `
     const mail = {
 
         from: process.env.EMAIL,

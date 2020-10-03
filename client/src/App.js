@@ -25,8 +25,11 @@ function App() {
                   <Cards />
                 </div>
               </div>
+              <div className="col-12 mb-2" id="contact">
+                <FormRequest />
+              </div>
             </div>
-            <FormRequest />
+
           </div>
         </div>
       </main>
