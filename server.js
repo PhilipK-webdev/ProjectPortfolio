@@ -11,10 +11,11 @@ const apiRoutes = require("./routes/api-routes");
 app.use(apiRoutes);
 
 if (process.env.NODE_ENV === "production") {
-    app.use('/static', express.static(path.join(__dirname, 'client/build')));
+    const root = require('path').join(__dirname, 'client', 'build')
+    app.use(express.static(root));
     app.get("*", (req, res) => {
-        res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
-    });
+        res.sendFile('index.html', { root });
+    })
 }
 
 app.listen(PORT, () => console.log(`listening at: http://localhost:${PORT}`));
