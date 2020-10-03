@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/newVersionPortfolio/static/css/main.eb2f968c.chunk.css",
+    "main.js": "/newVersionPortfolio/static/js/main.fa342d9d.chunk.js",
+    "main.js.map": "/newVersionPortfolio/static/js/main.fa342d9d.chunk.js.map",
+    "runtime-main.js": "/newVersionPortfolio/static/js/runtime-main.6094665f.js",
+    "runtime-main.js.map": "/newVersionPortfolio/static/js/runtime-main.6094665f.js.map",
+    "static/js/2.9e0a8b3c.chunk.js": "/newVersionPortfolio/static/js/2.9e0a8b3c.chunk.js",
+    "static/js/2.9e0a8b3c.chunk.js.map": "/newVersionPortfolio/static/js/2.9e0a8b3c.chunk.js.map",
+    "index.html": "/newVersionPortfolio/index.html",
+    "precache-manifest.0f3759718d2b37d7eaea1abefba281f5.js": "/newVersionPortfolio/precache-manifest.0f3759718d2b37d7eaea1abefba281f5.js",
+    "service-worker.js": "/newVersionPortfolio/service-worker.js",
+    "static/css/main.eb2f968c.chunk.css.map": "/newVersionPortfolio/static/css/main.eb2f968c.chunk.css.map",
+    "static/js/2.9e0a8b3c.chunk.js.LICENSE.txt": "/newVersionPortfolio/static/js/2.9e0a8b3c.chunk.js.LICENSE.txt",
+    "static/media/HEALT.png": "/newVersionPortfolio/static/media/HEALT.0eb65ac8.png",
+    "static/media/contact.svg": "/newVersionPortfolio/static/media/contact.4f6a66be.svg",
+    "static/media/developer.svg": "/newVersionPortfolio/static/media/developer.d87ca8ca.svg",
+    "static/media/groupProject.png": "/newVersionPortfolio/static/media/groupProject.e724a1f6.png",
+    "static/media/me2.svg": "/newVersionPortfolio/static/media/me2.f02052dd.svg",
+    "static/media/myAvatar.png": "/newVersionPortfolio/static/media/myAvatar.6cf72474.png",
+    "static/media/paper.svg": "/newVersionPortfolio/static/media/paper.aaa98fc0.svg",
+    "static/media/project.svg": "/newVersionPortfolio/static/media/project.f954c9c8.svg",
+    "static/media/weather.png": "/newVersionPortfolio/static/media/weather.68b14937.png",
+    "static/media/work-day.png": "/newVersionPortfolio/static/media/work-day.e91a44d0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6094665f.js",
+    "static/js/2.9e0a8b3c.chunk.js",
+    "static/css/main.eb2f968c.chunk.css",
+    "static/js/main.fa342d9d.chunk.js"
+  ]
+}
