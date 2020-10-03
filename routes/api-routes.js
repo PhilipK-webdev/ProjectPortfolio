@@ -7,18 +7,17 @@ router.post('/send', (req, res) => {
     const message = req.body.message;
     const content = `email: ${email} \n message: ${message} `
     const mail = {
-        from: `"Example Team",${email}`,
-        to: "philipk179@gmail.com",
-        subject: "Hi",
+
+        from: `"Example Team",<b0n3snapp3r@yahoo.com>`,
+        to: email,
         message: content,
         text: message
     }
     const transporter = nodemailer.createTransport({
-        host: "smtp.mailtrap.io",
-        port: 2525,
+        service: "gmail",
         auth: {
-            user: "3af9e9ed273ac4",
-            pass: "63df18ecb229d9"
+            user: "philipk179@gmail.com",
+            pass: "b0n3snapp3r89"
         },
         tls: {
             rejectUnauthorized: false
