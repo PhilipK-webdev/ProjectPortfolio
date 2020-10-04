@@ -14,9 +14,9 @@ const Card = () => {
                         <div className="text-justify d-flex justify-content-center" style={{ overflowY: "auto", maxHeight: "200px" }}>
                             <div className="card" style={{ width: "80rem" }}>
                                 <div className="card-text" style={{ background: "#ADFF2F", boxShadow: "10px 10px 14px -1px rgba(0,0,0,0.75)" }}>
-                                    <p className="font-weight-light text-monospace pl-3 pr-3 " style={{ fontSize: "18px", color: "black" }}>
-                                        <h4 className="mt-2" id="about">About Me :</h4>
-                                         My name is Philip Kouchner I'm 31 years old.
+                                    < p className="font-weight-light text-monospace pl-3 pr-3 " style={{ fontSize: "18px", color: "black" }}>
+                                        About Me :<br />
+                                        My name is Philip Kouchner I'm 31 years old.
                                         I like hiking , traveling , spend time with freinds and family
                                         and if you looking for a ping-pong player so you found one 🏆.
                                        <br /> After I gradutate from HIT (Holon Institue of Technology) with my B.Sc at Computer Science .
