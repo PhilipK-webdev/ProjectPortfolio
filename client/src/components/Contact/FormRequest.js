@@ -14,6 +14,10 @@ const FormRequest = () => {
             subject: subject,
             message: message,
         }
+        setName("");
+        setEmail("");
+        setSubject("");
+        setMessage("");
         const response = axios({
             method: 'POST',
             url: "/send",
@@ -35,12 +39,12 @@ const FormRequest = () => {
                                 value={name}
                                 required />
                             <MDBInput label="Your email" icon="envelope" group type="email" validate error="wrong"
-                                success="right" type="email"
+                                success="right"
                                 onChange={e => setEmail(e.target.value)}
                                 value={email}
                                 required />
-                            <MDBInput label="Subject" icon="tag" group type="text" validate error="wrong" success="right"
-                                success="right" type="text"
+                            <MDBInput label="Subject" icon="tag" group type="text" validate error="wrong"
+                                success="right"
                                 onChange={e => setSubject(e.target.value)}
                                 value={subject}
                                 required />

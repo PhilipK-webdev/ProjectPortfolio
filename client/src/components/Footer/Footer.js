@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer className="d-flex flex-column footer">
             <h2 > Made By Philip Kouchner</h2 >
-            <p><img src={developer} style={{ width: "50px" }} /> &copy; 2020 FullStack Web Developer, Inc.</p>
+            <p><img src={developer} style={{ width: "50px" }} alt="developer" /> &copy; 2020 FullStack Web Developer, Inc.</p>
         </footer >
     )
 }
