@@ -12,7 +12,7 @@ function App() {
         <Nav />
       </header>
       <main>
-        <div className="d-flex flex-column" style={{ background: "#f7cac9" }}>
+        <div className="d-flex flex-column" style={{ background: "#B6E0F6" }}>
           <div className="container-fluid rounded-0">
             <div className="row">
               <div className="col-12 p-0" id="about">
