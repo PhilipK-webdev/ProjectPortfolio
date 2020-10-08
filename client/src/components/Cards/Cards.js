@@ -13,6 +13,7 @@ const Cards = () => {
                         <h5 className="card-title">StockTracker App:</h5>
                         <p className="card-text">
                             The StockTracker app was developed during a team project.<br />
+                            Operated a team of 4 and was instrumental in successfully completing StockTracker and “project goals, objectives, timeline”.
                             An app that can provide and help you to understand when and what company to invest by getting information on market trend obtaining news and other factors in the market which assist on decision making,
                             help you to know how your investments are performing and help you know when it’s time to make changes on your investment.<br />
                             Full Stack app build with CSS  and Materialize on the front-end , Node.js and mySql DB using Sequelize
