@@ -11,10 +11,10 @@ const Card = () => {
                         <div className="card-title display-4 mb-6" style={{ boxShadow: "10px 10px 14px -1px rgba(0,0,0,0.75)", textDecoration: "underline" }}>
                             <img src={avatar} alt="Avatar" className="img-thumbnail rounded-circle ml-3" style={{ width: "100px" }} />
                         </div>
-                        <div className="text-justify d-flex justify-content-center" style={{ overflowY: "auto", maxHeight: "200px" }}>
+                        <div className="text-justify d-flex justify-content-center" style={{ overflowY: "auto", maxHeight: "230px" }}>
                             <div className="card" style={{ width: "80rem" }}>
                                 <div className="card-text" style={{ background: "#EDF7FD", boxShadow: "10px 10px 14px -1px rgba(0,0,0,0.75)" }}>
-                                    < p className="pl-3 pr-3 " style={{ fontSize: "18px", color: "black" }}>
+                                    <div className="pl-3 pr-3 " style={{ fontSize: "18px", color: "black" }}>
                                         <strong>Who am I.</strong> <br />
                                         My name is Philip Kouchner, a B.Sc. graduate, residing in California.
                                         I like hiking, spending time with friends and family and am a big sports fan (if you are looking for Ping-Pong player then you found one). <br />
@@ -29,7 +29,7 @@ const Card = () => {
                                           Having the skills in : <p className="font-italic" style={{ marginRight: "5px", marginBottom: "0px" }}> HTML, CSS , JavaScript, jQuery , React , Node.js, MongoDB , MySQL , Bootstarp , Material-UI.</p>
                                           I’m always looking to upgrade myself and keep up with the new techniques
                                           in a constantly changing world of technologies.
-                                    </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
