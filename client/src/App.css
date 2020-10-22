@@ -19,3 +19,15 @@ html{
     position: absolute;
     width: 100%;
 }
+
+#intro{
+
+    font-size: 7rem; color: rgb(255, 255, 255); 
+    font-family: Alice;
+    background-color: rgb(238, 211, 238);
+
+}
+#webDev{
+    font-size: 1.5rem; line-height: 1rem; 
+    font-family: Roboto;
+}

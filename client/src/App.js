@@ -13,7 +13,17 @@ function App() {
       </header>
       <main>
         <div className="d-flex flex-column" style={{ background: "#B6E0F6" }}>
-          <div className="container-fluid rounded-0">
+          <div className="container-fluid">
+            <div className="row">
+              <div className="row"><div style={{ height: "600px", }}></div></div>
+              <div className="pt-5 text-center col" id="intro">
+                <div>Kouchner Philip
+                  <div className="pb-5 mb-2 col" id="webDev">
+                    Software Engineer - Front-end And Back-end
+                  </div>
+                </div>
+              </div>
+            </div>
             <div className="row">
               <div className="col-12 p-0" id="about">
                 <Card />
@@ -33,7 +43,7 @@ function App() {
       <footer >
         <Footer />
       </footer>
-    </body>
+    </body >
   );
 }
 
