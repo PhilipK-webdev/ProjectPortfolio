@@ -1,0 +1,52 @@
+#cardBackground{
+
+    background-color:#e6dbc9;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-top: none !important;
+    border: none !important;
+}
+
+#about{
+
+    color: rgb(116, 115, 115); 
+    font-size: 18px;
+}
+
+#aboutMe{
+     color: rgb(255, 255, 255); 
+     font-size: 4rem;
+}
+#project{
+
+    color: rgb(255, 255, 255);
+     font-size: 4rem;
+}
+#projectContainer{
+    background-color:#dea6af;
+}
+
+
+#cardImg{
+    position: relative !important;
+}
+
+.card-body{
+   
+    background-color: rgb(230, 219, 201) !important;
+
+}
+
+.card-title{
+
+    font-size: 27px; 
+    color: rgb(140, 188, 208);
+}
+.card-text{
+    font-size: 17px !important;
+}
+.card-footer{
+
+    background-color: rgb(230, 219, 201);
+    padding: 5px 20px;
+}

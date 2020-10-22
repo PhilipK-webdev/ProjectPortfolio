@@ -2,10 +2,10 @@ import React from 'react'
 import "../Navbar/Nav.css"
 const Nav = () => {
     return (
-        <div className="container-fluid">
-            <div className="row">
-                <nav className="navbar navbar-expand-lg navbar-dark" style={{ width: "100vw", boxShadow: "none", padding: " 30px 30px 0px" }}>
-                    <a href="#about" className="display-2 navbar-brand" style={{ color: "black" }} id="myName">Philip Kouchner</a>
+        <div className="row m-0">
+            <div className="container-fluid p-0" id="container">
+                <nav className="navbar navbar-expand-lg navbar-dark">
+                    <a href="#about" style={{ color: "black" }} id="myName">Philip Kouchner</a>
                     <button className="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#basic-navbar-nav"
                         aria-controls="basic-navbar-nav" aria-expanded="false" aria-label="Toggle navigation"><span className="dark-blue-text"><i
                             className="fas fa-bars fa-1x"></i></span></button>
@@ -24,11 +24,11 @@ const Nav = () => {
                                 <a className="nav-link text-primary" href="https://medium.com/@philipk179" >Articles</a>
                             </li>
                         </ul>
-
                     </div>
                 </nav>
             </div>
         </div>
+
 
     )
 }

@@ -1,7 +1,7 @@
-html{
+body{
     
     margin: 0;
-    padding: 0;
+   
     width: 100%;
     height: 100%;
     box-sizing: border-box;
@@ -20,12 +20,18 @@ html{
     width: 100%;
 }
 
+.container-fluid{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    
+}
+
 #intro{
 
     font-size: 7rem; color: rgb(255, 255, 255); 
     font-family: Alice;
-    background-color: rgb(238, 211, 238);
-
+    background-color:#dea6af;
+    height: 100vh;
 }
 #webDev{
     font-size: 1.5rem; line-height: 1rem; 

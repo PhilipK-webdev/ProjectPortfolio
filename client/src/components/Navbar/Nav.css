@@ -1,12 +1,16 @@
-body{
-    background-color: rgb(238, 211, 238);
-}
+
 #myName{
     font-family: 'Leckerli One', cursive;
     font-size:1.75rem;
 }
 #basic-navbar-nav{
-    
+   
     font-family: cursive;
     font-size: 1.25rem;
+}
+#container{
+    background-color:#dea6af;
+    height: 15vh;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
