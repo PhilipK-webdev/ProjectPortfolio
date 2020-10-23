@@ -1,5 +1,5 @@
 import React from 'react'
-import weather from "../Cards/img/weather.PNG"
+
 import work from "../Cards/img/work-day.png"
 import healt from "../Cards/img/HEALT.png"
 import gifSearch from "../Cards/img/gifSearch.png"
@@ -48,7 +48,7 @@ const Cards = () => {
                 </div>
                 <div className="text-center col-lg col-md-6 col-12">
                     <div className="card h-100" style={{ margin: "20px 0px 20px 10px !important" }}>
-                        <img className="card-img-top" src={weather} alt="Weather App" id="cardImg" />
+                        <img className="card-img-top" src={stockTracker} alt="Weather App" id="cardImg" />
                         <div className="card-body">
                             <div className="card-title h5">Weather Dashboard</div>
                             <p className="card-text">
