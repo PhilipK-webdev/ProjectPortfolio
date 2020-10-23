@@ -3,11 +3,12 @@ import './App.css';
 import Card from './components/Cards/Card';
 import Cards from './components/Cards/Cards';
 import Contact from './components/Contact/Contact';
-import FormRequest from './components/Contact/FormRequest';
 import Footer from './components/Footer/Footer';
 import Nav from './components/Navbar/Nav';
 import Skill from './components/Skills/Skill';
+import ScrollAnimation from 'react-animate-on-scroll';
 function App() {
+
   return (
     <div style={{ position: "relative", zIndex: "0" }} className=" m-0">
       <div style={{ position: " relative", minHeight: "620px", marginBottom: "0px" }}>
@@ -21,16 +22,21 @@ function App() {
           <div className="container-fluid p-0">
             <div className="text-center col" id="intro">
               <div className="continer-fluid">
-                <div >Kouchner Philip
+                <ScrollAnimation animateIn="slideInDown">
+                  <div style={{ fontSize: "80px" }} id="name">
+                    Kouchner Philip
+                </div>
+
                   <div className="pb-5 mb-2 col" id="webDev">
                     Software Engineer - Front-end And Back-end
-                  </div>
                 </div>
+                </ScrollAnimation>
               </div>
             </div>
           </div>
         </div>
       </div>
+
       <div className="row m-0">
         <div style={{ position: "relative", minHeight: "300px", marginBottom: "0px" }}>
           <div style={{ height: "100px" }}></div>
@@ -64,6 +70,7 @@ function App() {
         </div>
 
       </div>
+
       <div style={{ zIndex: "-5", paddingTop: "75px", position: "relative", backgroundColor: " rgb(222, 166, 175)" }}>
         <footer data-test="footer" className="page-footer font-small pt-4">
           <Contact />

@@ -1,31 +1,10 @@
-body{
-    
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
-    
-}
+html {
+    scroll-behavior: smooth;
+  }
+
 footer{
     background-color: rgb(222, 166, 175);
 }
- /* .footer{
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    background-color: #3f51b6;
-    color: white;
-    min-width: min-content;
-    grid-row: 2;
-    position: absolute;
-    width: 100%;
-} */
-
-/* .container-fluid{
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    
-} */
 
 #intro{
 
@@ -37,8 +16,27 @@ footer{
 #webDev{
     font-size: 1.5rem; line-height: 1rem; 
     font-family: Roboto;
+    line-height: normal;
+    animation-duration: 3s;
+    animation-name: bounceIn;
+    animation-timing-function: ease-in-out;
 }
-/* #cards{
 
-    background-color:rgb(222, 166, 175)
-} */
+#name {
+    animation-duration: 2s;
+    animation-name: bounceIn;
+  }
+
+@keyframes bounceIn {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
