@@ -3,8 +3,7 @@ import avatar from "../Cards/img/myAvatar.png"
 import "../Cards/Card.css"
 const Card = () => {
     return (
-
-        <div className="container-fluid m-0" id="cardBackground">
+        <div className="container-fluid m-0" id="about">
             <h1 className="display-2 text-center mt-3 mb-4" id="aboutMe">About Me</h1>
             <div className="row mb-4 m-0">
                 <div className="col-sm-12">
@@ -36,6 +35,7 @@ const Card = () => {
                 </div>
             </div >
         </div>
+
     )
 }
 

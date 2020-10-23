@@ -3,13 +3,45 @@ import developer from "../Footer/img/developer.svg"
 const Footer = () => {
 
     return (
-        <footer className="d-flex flex-column footer">
-            <h2 > Made By Philip Kouchner</h2 >
-            <p><img src={developer} style={{ width: "50px" }} alt="developer" /> &copy; 2020 FullStack Web Developer, Inc.<br />
-                <a href="https://www.linkedin.com/in/philip-kouchner-886264100/" className="text-white mr-2">Linkedin</a><a href="https://github.com/PhilipK-webdev" className="text-white">Github</a>
-            </p>
+        <div className="footer-copyright py-3 text-center" style={{ backgroundColor: "rgb(178, 133, 141)" }}>
+            <div className="row">
+                <div className="container-fluid">
+                    <p><img src={developer} style={{ width: "30px" }} alt="developer" /> &copy; 2020 FullStack Web Developer, Inc.<br />
+                    Made By Philip Kouchner
+                    </p>
+                </div>
+                <div className="container-fluid">
+                    <div style={{ display: "inline-block", transform: "none" }}><a href="https://github.com/PhilipK-webdev" target="_blank" aria-label="GitHub icon">
+                        <i className="fab fa-github" style={{ color: "rgb(255, 255, 255)", margin: "10px", fontSize: "27px" }}>
+                        </i>
+                    </a>
+                    </div>
+                    <div style={{ display: "inline-block", transform: "none" }}>
+                        <i className="fab fa-react" style={{ color: "rgb(255, 255, 255)", margin: "10px", fontSize: "27px" }}>
+                        </i>
 
-        </footer >
+                    </div>
+                    <div style={{ display: "inline-block", transform: "none" }}>
+                        <i className="fab fa-node" style={{ color: "rgb(255, 255, 255)", margin: "10px", fontSize: "27px" }}>
+                        </i>
+
+                    </div>
+                    <div style={{ display: "inline-block", transform: "none" }}>
+                        <i className="fab fa-js-square" style={{ color: "rgb(255, 255, 255)", margin: "10px", fontSize: "27px" }}>
+                        </i>
+
+                    </div>
+                    <div style={{ display: "inline-block", transform: "none" }}>
+                        <i className="fab fa-bootstrap" style={{ color: "rgb(255, 255, 255)", margin: "10px", fontSize: "27px" }}>
+                        </i>
+                    </div>
+                    <div style={{ display: "inline-block", transform: "none" }}>
+                        <i className="fab fa-font-awesome-flag" style={{ color: "rgb(255, 255, 255)", margin: "10px", fontSize: "27px" }}>
+                        </i>
+                    </div>
+                </div>
+            </div>
+        </div >
     )
 }
 

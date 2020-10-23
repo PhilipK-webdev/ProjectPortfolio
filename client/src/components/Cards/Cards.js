@@ -4,9 +4,10 @@ import weather from "../Cards/img/weather.png"
 import work from "../Cards/img/work-day.png"
 import healt from "../Cards/img/HEALT.png"
 import gifSearch from "../Cards/img/gifSearch.png"
+import "../Cards/Cards.css"
 const Cards = () => {
     return (
-        <div className="px-5 container-fluid m-0" id="projectContainer">
+        <div className="container-fluid m-0" id="projectContainer">
             <div className="row m-0">
                 <div className="text-center col-md-4 col-12">
                     <h1 className="text-center mt-3 mb-4" id="project">Projects</h1>
@@ -105,23 +106,7 @@ const Cards = () => {
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <div className="row m-0 mt-2">
+            <div className="row m-0 mt-2 mb-3">
                 <div className="text-center col-lg col-md-6 col-12">
                     <div className="card h-100" style={{ margin: "20px 0px 20px 10px !important" }}>
                         <img className="card-img-top" src={work} alt="WorkDay App" id="cardImg" />

@@ -1,0 +1,17 @@
+#skill{
+    color: rgb(255, 255, 255);
+     font-size: 4rem;
+}
+#containerSkill{
+    display: inline;
+}
+#icon{
+    color: rgb(140, 188, 208);
+     margin: 40px 40px 0px; 
+     font-size: 70px;
+}
+.iconPargraph{
+    font-size: 20px;
+     margin-top: 0px;
+      font-family: Roboto;
+}

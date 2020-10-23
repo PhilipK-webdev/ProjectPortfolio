@@ -18,6 +18,9 @@ const Nav = () => {
                                 <a className="nav-link text-primary" href="#project">Projects</a>
                             </li>
                             <li className="nav-item">
+                                <a className="nav-link text-primary" href="#skill">Skills</a>
+                            </li>
+                            <li className="nav-item">
                                 <a className="nav-link text-primary" href="#contact">Contact</a>
                             </li>
                             <li className="nav-item">

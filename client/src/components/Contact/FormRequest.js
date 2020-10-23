@@ -32,7 +32,6 @@ const FormRequest = () => {
                 <MDBRow>
                     <MDBCol md="12">
                         <form onSubmit={submitRequest}>
-                            <h3 className="display-3">Contact</h3>
                             <MDBInput label="Your name" icon="user" group type="text" validate error="wrong"
                                 success="right" name="name"
                                 onChange={e => setName(e.target.value)}
