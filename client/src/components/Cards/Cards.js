@@ -1,9 +1,10 @@
 import React from 'react'
-import group from "../Cards/img/groupProject.png"
-import weather from "../Cards/img/weather.png"
+import weather from "../Cards/img/weather.PNG"
 import work from "../Cards/img/work-day.png"
 import healt from "../Cards/img/HEALT.png"
 import gifSearch from "../Cards/img/gifSearch.png"
+import stockTracker from "../Cards/img/stockTracker.PNG"
+import mySQL from "../Cards/img/mySQL.png"
 import "../Cards/Cards.css"
 const Cards = () => {
     return (
@@ -16,7 +17,7 @@ const Cards = () => {
             <div className="row m-0">
                 <div className="text-center col-lg col-md-6 col-12">
                     <div className="card h-100" style={{ margin: "20px 0px 20px 10px !important" }}>
-                        <img className="card-img-top" src={group} alt="stockTracker App" id="cardImg" />
+                        <img className="card-img-top" src={stockTracker} alt="stockTracker App" id="cardImg" />
                         <div className="card-body">
                             <div className="card-title h5 mt-1">StockTracker App</div>
                             <p className="card-text">
@@ -169,28 +170,26 @@ const Cards = () => {
                 </div>
                 <div className="text-center col-lg col-md-6 col-12">
                     <div className="card h-100" style={{ margin: "20px 0px 20px 10px !important" }}>
-                        <img className="card-img-top" src={healt} alt="Health App" id="cardImg" />
+                        <img className="card-img-top" src={mySQL} alt="Health App" id="cardImg" />
                         <div className="card-body">
-                            <div className="card-title h5">MERN App:</div>
+                            <div className="card-title h5">Employee Tracker:</div>
                             <p className="card-text">
-                                MERN Health Tracker is an app designed for tracking calorie intake.
-                                You can search for food items and add logs to your profile,
-                                keeping track of what you’ve eaten, along with a detailed breakdown of the nutritional content of those foods.
-                                As user you want to be able to track you nutritions intake and to see history of what you have eaten.
+                                A CMS - Content Management System for managing a company's employees .
+                                As a HR user of the app I want to be able to add a new employee to the company
                             </p>
                             <p className="card-text">Stack:</p>
                             <p className="card-text">
-                                MERN, Sequelize, mySql, Express, React.js, Node.js, Javascript , Passport authentication, Material-UI
+                                Node.js, Inquirer, Sequelize, mySql, Node.js, Javascript
                             </p>
                         </div>
                         <div className="card-footer">
                             <div style={{ display: "inline-block" }}>
-                                <a href="https://github.com/PhilipK-webdev/WorkDay-Scheduler" >
+                                <a href="https://github.com/PhilipK-webdev/Employee-Tracker" alt="Github repo" >
                                     <i className="fab fa-github" style={{ color: "rgb(222, 166, 175)", margin: "10px", fontSize: "27px" }}></i>
                                 </a>
                             </div>
                             <div style={{ display: "inline-block" }}>
-                                <a href="https://health-tracker-appnew.herokuapp.com/" >
+                                <a href="https://www.youtube.com/watch?v=oPUJK9GTxmM" alt="Youtube Video">
                                     <i className="fas fa-external-link-alt" style={{ color: "rgb(222, 166, 175)", margin: "10px", fontSize: "27px" }}></i>
                                 </a>
                             </div>
