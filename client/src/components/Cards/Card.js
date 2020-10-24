@@ -13,7 +13,7 @@ const Card = () => {
                             <div className="row m-0">
                                 <div className="col-lg-1"></div>
                                 <div className="col-lg-3 col-md-12">
-                                    <img src={avatar} className="img-fluid pt-3" id="avatar" />
+                                    <img src={avatar} className="img-fluid pt-3" id="avatar" alt="" />
                                 </div>
 
                                 <div className="mt-3 col-lg-6 col-md-12" id="about">

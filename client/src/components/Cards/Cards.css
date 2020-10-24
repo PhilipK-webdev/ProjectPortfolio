@@ -2,6 +2,7 @@
 
     color: rgb(255, 255, 255);
      font-size: 4rem;
+     font-family: 'Old Standard TT', serif;
 }
 #cardImg{
     position: relative !important;

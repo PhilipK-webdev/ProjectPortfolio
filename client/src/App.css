@@ -1,5 +1,7 @@
 html {
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
   }
 
 footer{
@@ -15,7 +17,7 @@ footer{
 }
 #webDev{
     font-size: 1.5rem; line-height: 1rem; 
-    font-family: Roboto;
+    font-family: 'Rakkas', cursive;
     line-height: normal;
     animation-duration: 3s;
     animation-name: bounceIn;
@@ -25,6 +27,8 @@ footer{
 #name {
     animation-duration: 2s;
     animation-name: bounceIn;
+    font-size: 80px;
+    font-family: 'Leckerli One', cursive;
   }
 
 @keyframes bounceIn {

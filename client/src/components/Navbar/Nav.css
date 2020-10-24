@@ -14,3 +14,6 @@
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
+.link:hover{
+    cursor: pointer;
+}

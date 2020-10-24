@@ -11,7 +11,7 @@ const Footer = () => {
                     </p>
                 </div>
                 <div className="container-fluid">
-                    <div style={{ display: "inline-block", transform: "none" }}><a href="https://github.com/PhilipK-webdev" target="_blank" aria-label="GitHub icon">
+                    <div style={{ display: "inline-block", transform: "none" }}><a href="https://github.com/PhilipK-webdev" target="_blank" rel="noopener noreferrer" aria-label="GitHub icon">
                         <i className="fab fa-github" style={{ color: "rgb(255, 255, 255)", margin: "10px", fontSize: "27px" }}>
                         </i>
                     </a>

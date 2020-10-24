@@ -10,7 +10,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 function App() {
 
   return (
-    <div style={{ position: "relative", zIndex: "0" }} className=" m-0">
+    <div style={{ position: "relative", zIndex: "0" }} className="m-0 p-0">
       <div style={{ position: " relative", minHeight: "620px", marginBottom: "0px" }}>
         <div style={{ position: "relative", top: "0px", minHeight: "545px", width: "100%", zIndex: "1" }}>
           <Nav />
@@ -23,7 +23,7 @@ function App() {
             <div className="text-center col" id="intro">
               <div className="continer-fluid">
                 <ScrollAnimation animateIn="slideInDown">
-                  <div style={{ fontSize: "80px" }} id="name">
+                  <div id="name">
                     Kouchner Philip
                 </div>
 

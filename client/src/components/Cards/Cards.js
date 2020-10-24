@@ -48,7 +48,7 @@ const Cards = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="text-center col-lg col-md-6 col-12">
+                    <div className="text-center col-lg col-md-6 col-12 mt-2">
                         <div className="card h-100" style={{ margin: "20px 0px 20px 10px !important" }}>
                             <img className="card-img-top" src={dashboard} alt="Weather App" id="cardImg" />
                             <div className="card-body">
@@ -78,7 +78,7 @@ const Cards = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="text-center col-lg col-md-6 col-12">
+                    <div className="text-center col-lg col-md-6 col-12 mt-2">
                         <div className="card h-100" style={{ margin: "20px 0px 20px 10px !important" }}>
                             <img className="card-img-top" src={healt} alt="Health App" id="cardImg" />
                             <div className="card-body">
@@ -110,7 +110,7 @@ const Cards = () => {
                     </div>
                 </div>
                 <div className="row m-0 mt-2 mb-3">
-                    <div className="text-center col-lg col-md-6 col-12">
+                    <div className="text-center col-lg col-md-6 col-12  mt-2">
                         <div className="card h-100" style={{ margin: "20px 0px 20px 10px !important" }}>
                             <img className="card-img-top" src={work} alt="WorkDay App" id="cardImg" />
                             <div className="card-body">
@@ -140,7 +140,7 @@ const Cards = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="text-center col-lg col-md-6 col-12">
+                    <div className="text-center col-lg col-md-6 col-12  mt-2">
                         <div className="card h-100" style={{ margin: "20px 0px 20px 10px !important" }}>
                             <img className="card-img-top" src={gifSearch} alt="Gif Search App" id="cardImg" />
                             <div className="card-body">
@@ -170,7 +170,7 @@ const Cards = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="text-center col-lg col-md-6 col-12">
+                    <div className="text-center col-lg col-md-6 col-12  mt-2">
                         <div className="card h-100" style={{ margin: "20px 0px 20px 10px !important" }}>
                             <img className="card-img-top" src={mySQL} alt="Health App" id="cardImg" />
                             <div className="card-body">

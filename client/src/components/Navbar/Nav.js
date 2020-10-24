@@ -12,19 +12,19 @@ const Nav = () => {
                     <div className="navbar-collapse collapse" id="basic-navbar-nav">
                         <ul className="mr-auto navbar-nav">
                             <li className="nav-item active ">
-                                <a className="nav-link text-primary" href="#about">About Me</a>
+                                <a className="nav-link text-primary link" href="#about">About Me</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-primary" href="#project">Projects</a>
+                                <a className="nav-link text-primary link" href="#project">Projects</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-primary" href="#skill">Skills</a>
+                                <a className="nav-link text-primary link" href="#skill">Skills</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-primary" href="#contact">Contact</a>
+                                <a className="nav-link text-primary link" href="#contact">Contact</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-primary" href="https://medium.com/@philipk179" >Articles</a>
+                                <a className="nav-link text-primary link" href="https://medium.com/@philipk179" >Articles</a>
                             </li>
                         </ul>
                     </div>
