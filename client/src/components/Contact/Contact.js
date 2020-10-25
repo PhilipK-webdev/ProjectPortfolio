@@ -19,9 +19,10 @@ const Contact = () => {
                 <div className="col-md-3"></div>
                 <div className="text-center col-md-6">
                     <ScrollAnimation animateIn="zoomInUp" duration="2">
-                        <div style={{ display: "inline-block" }}>
-                            <a href="https://github.com/PhilipK-webdev" target="_blank" rel="noopener noreferrer" aria-label="GitHub icon">
-                                <i className="fab fa-github" style={{ color: "rgb(255, 255, 255)", margin: "10px", fontSize: "27px" }}></i>
+                        <div style={{ display: "inline-block" }} >
+                            <a href="https://github.com/PhilipK-webdev" target="_blank" rel="noopener noreferrer" aria-label="GitHub icon" >
+                                <i className="fab fa-github" style={{ color: "rgb(255, 255, 255)", margin: "10px", fontSize: "27px" }} >
+                                </i>
                             </a>
                         </div>
                         <div style={{ display: "inline-block" }}>
@@ -35,6 +36,7 @@ const Contact = () => {
                                 </i>
                             </a>
                         </div>
+
                     </ScrollAnimation>
                 </div>
                 <div className="col-md-3"></div>
