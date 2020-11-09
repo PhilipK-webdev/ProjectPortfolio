@@ -7,7 +7,8 @@ const Footer = () => {
             <div className="row">
                 <div className="container-fluid">
                     <p><img src={developer} style={{ width: "30px" }} alt="developer" /> &copy; 2020 FullStack Web Developer, Inc.<br />
-                    Made By Philip Kouchner
+                    Made By Philip Kouchner<br />
+                        <a href="mailto:philipk179@gmail.com" style={{ color: "#55474c" }}>philipk179@gmail.com</a>
                     </p>
                 </div>
                 <div className="container-fluid">
