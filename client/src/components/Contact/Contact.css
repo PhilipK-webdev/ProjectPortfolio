@@ -6,3 +6,7 @@
 #contactMe{
     font-family: 'Merriweather', serif;
 }
+.fa-github:before{
+    font-size: 27px;
+    color: white;
+} 

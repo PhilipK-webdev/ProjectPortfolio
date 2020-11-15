@@ -2,6 +2,7 @@ import React from 'react'
 import "../Contact/Contact.css"
 import FormRequest from './FormRequest'
 import ScrollAnimation from 'react-animate-on-scroll';
+import ResumeDocument from '../ResumeDocument/ResumeDocument'
 const Contact = () => {
     return (
         <div className="container-fluid" id="contact">
@@ -20,23 +21,25 @@ const Contact = () => {
                 <div className="text-center col-md-6">
                     <ScrollAnimation animateIn="zoomInUp" duration="2">
                         <div style={{ display: "inline-block" }} >
-                            <a href="https://github.com/PhilipK-webdev" target="_blank" rel="noopener noreferrer" aria-label="GitHub icon" >
-                                <i className="fab fa-github" style={{ color: "rgb(255, 255, 255)", margin: "10px", fontSize: "27px" }} >
+                            <a href="https://github.com/PhilipK-webdev" target="_blank" rel="noopener noreferrer" aria-label="GitHub icon" title="GitHub">
+                                <i className="fab fa-github" style={{ cursor: "pointer" }}>
                                 </i>
                             </a>
                         </div>
                         <div style={{ display: "inline-block" }}>
-                            <a href="https://www.linkedin.com/in/philip-kouchner-886264100/" target="_blank" rel="noopener noreferrer" aria-label="Linkedin icon">
-                                <i className="fab fa-linkedin" style={{ color: "rgb(255, 255, 255)", margin: "10px", fontSize: "27px" }}></i>
+                            <a href="https://www.linkedin.com/in/philip-kouchner-886264100/" target="_blank" rel="noopener noreferrer" aria-label="Linkedin icon" title="Linkedin">
+                                <i className="fab fa-linkedin" style={{ color: "rgb(255, 255, 255)", margin: "10px", fontSize: "27px", cursor: "pointer" }}></i>
                             </a>
                         </div>
                         <div style={{ display: "inline-block" }}>
-                            <a href="mailto:philipk179@gmail.com">
-                                <i alt="Email icon" className="fas fa-envelope" style={{ color: "rgb(255, 255, 255)", margin: "10px", fontSize: "27px" }}>
+                            <a href="mailto:philipk179@gmail.com" title="Email">
+                                <i alt="Email icon" className="fas fa-envelope" style={{ color: "rgb(255, 255, 255)", margin: "10px", fontSize: "27px", cursor: "pointer" }}>
                                 </i>
                             </a>
                         </div>
-
+                        <div style={{ display: "inline-block" }} >
+                            <ResumeDocument />
+                        </div>
                     </ScrollAnimation>
                 </div>
                 <div className="col-md-3"></div>
@@ -52,7 +55,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 

@@ -1,5 +1,7 @@
 import React from 'react'
 import developer from "../Footer/img/developer.svg"
+
+
 const Footer = () => {
 
     return (
@@ -10,6 +12,7 @@ const Footer = () => {
                     Made By Philip Kouchner<br />
                         <a href="mailto:philipk179@gmail.com" style={{ color: "#55474c" }}>philipk179@gmail.com</a>
                     </p>
+
                 </div>
                 <div className="container-fluid">
                     <div style={{ display: "inline-block", transform: "none" }}><a href="https://github.com/PhilipK-webdev" target="_blank" rel="noopener noreferrer" aria-label="GitHub icon">
