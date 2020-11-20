@@ -9,7 +9,7 @@ Recently graduaded from UC-Berkley as a full stack web developer.
  
 
 ## Screenshot 
-![](./img/me.PNG)
+![](./img/intro.PNG)
 ## Built With
 
 - React
