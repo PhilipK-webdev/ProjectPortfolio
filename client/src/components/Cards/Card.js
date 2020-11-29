@@ -18,19 +18,18 @@ const Card = () => {
 
                                 <div className="mt-3 col-lg-6 col-md-12" id="about">
                                     <ScrollAnimation animateIn="zoomIn">
-                                        <strong style={{ fontSize: "30px" }}>Who am I.</strong> <br />
+                                        <strong style={{ fontSize: "30px" }}>Who am I:</strong> <br />
                                         My name is Philip Kouchner, a B.Sc. graduate, residing in California.
-                                        I like hiking, spending time with friends and family and am a big sports fan (if you are looking for Ping-Pong player then you found one). <br />
-                                        <strong style={{ fontSize: "30px" }}>Where it all began.</strong> <br />
-                                        In 2014, I took a first step towards my career as a web developer
-                                        by entering the school of Computer Science in Holon Institute of Technology (HIT).Three years later I received my B.Sc. diploma.<br />
-                                        <strong style={{ fontSize: "30px" }}>What else.</strong> <br />
-                                        Seeking to broaden my knowledge I took a “Full Stack Web Developer”
+                                        I like hiking, reading books and am a big sports fan (if you are looking for Ping-Pong player then you found one). <br />
+                                        <strong style={{ fontSize: "30px" }}>Where it all began:</strong> <br />
+                                        In 2014, I took the first step towards my career as a web developer
+                                        by entering the school of Computer Science in Holon Institute of Technology (HIT) in Israel.Three years later I received my B.Sc. diploma.<br />
+                                        <strong style={{ fontSize: "30px" }}>What else:</strong> <br />
+                                        Seeking to broaden my knowledge, I took a “Full Stack Web Developer”
                                          class at UC Berkeley Extension and am a fresh graduate (September 2020) with a 4.0 GPA.<br />
-                                        <strong style={{ fontSize: "30px" }}>Where I am now.</strong> <br />
+                                        <strong style={{ fontSize: "30px" }}>Where I am now:</strong> <br />
                                           Currently seeking for position as a front end, back end or full stack developer.
-                                          I’m always looking to upgrade myself and keep up with the new techniques
-                                          in a constantly changing world of technologies.
+                                          I’m always looking to evolve and keep up with the latest tech in a rapidly changing world.
                                      </ScrollAnimation>
                                 </div>
 

@@ -28,7 +28,7 @@ function App() {
                 </div>
 
                   <div className="pb-5 mb-2 col" id="webDev">
-                    Software Engineer - Front-end And Back-end
+                    Software Engineer - Full Stack
                 </div>
                 </ScrollAnimation>
               </div>

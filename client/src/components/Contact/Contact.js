@@ -9,7 +9,7 @@ const Contact = () => {
             <div className="row">
                 <div className="col-md-3"></div>
                 <div className="text-center col-md-6">
-                    <ScrollAnimation animateIn="slideInRight" duration="2">
+                    <ScrollAnimation animateIn="slideInRight" duration={2}>
                         <h1 className="text-center mt-3 mb-4" id="contactMe" style={{ color: "rgb(255, 255, 255)", fontSize: "4rem" }} >Contact Me</h1>
                     </ScrollAnimation>
                 </div>
@@ -19,10 +19,10 @@ const Contact = () => {
 
                 <div className="col-md-3"></div>
                 <div className="text-center col-md-6">
-                    <ScrollAnimation animateIn="zoomInUp" duration="2">
+                    <ScrollAnimation animateIn="zoomInUp" duration={2}>
                         <div style={{ display: "inline-block" }} >
                             <a href="https://github.com/PhilipK-webdev" target="_blank" rel="noopener noreferrer" aria-label="GitHub icon" title="GitHub">
-                                <i className="fab fa-github" style={{ cursor: "pointer" }}>
+                                <i className="fab fa-github" id="fa-github" style={{ cursor: "pointer" }}>
                                 </i>
                             </a>
                         </div>
@@ -48,7 +48,7 @@ const Contact = () => {
             <div className="container-fluid">
                 <div className="row no-gutters" style={{ marginBottom: "15px" }}>
                     <div className="text-center col"><div className="container" style={{ display: "inline" }}>
-                        <ScrollAnimation animateIn="slideInUp" duration="2">
+                        <ScrollAnimation animateIn="slideInUp" duration={2}>
                             <FormRequest />
                         </ScrollAnimation>
                     </div>
