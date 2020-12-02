@@ -27,3 +27,6 @@
     background-color: rgb(230, 219, 201);
     padding: 5px 20px;
 }
+.card-img-top:hover{
+    transform: scale(1.17);
+}
