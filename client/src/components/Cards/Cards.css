@@ -29,4 +29,5 @@
 }
 .card-img-top:hover{
     transform: scale(1.17);
+    transition: all 2s ease;
 }
