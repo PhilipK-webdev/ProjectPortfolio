@@ -3,6 +3,7 @@ import "../Contact/Contact.css"
 import FormRequest from './FormRequest'
 import ScrollAnimation from 'react-animate-on-scroll';
 import ResumeDocument from '../ResumeDocument/ResumeDocument'
+import Footer from '../Footer/Footer';
 const Contact = () => {
     return (
         <div className="container-fluid" id="contact">
@@ -19,7 +20,7 @@ const Contact = () => {
 
                 <div className="col-md-3"></div>
                 <div className="text-center col-md-6">
-                    <ScrollAnimation animateIn="zoomInUp" duration={2}>
+                    <ScrollAnimation animateIn="zoomInUp" duration={4}>
                         <div style={{ display: "inline-block" }} >
                             <a href="https://github.com/PhilipK-webdev" target="_blank" rel="noopener noreferrer" aria-label="GitHub icon" title="GitHub">
                                 <i className="fab fa-github" id="fa-github" style={{ cursor: "pointer" }}>
@@ -46,11 +47,9 @@ const Contact = () => {
 
             </div>
             <div className="container-fluid">
-                <div className="row no-gutters" style={{ marginBottom: "15px" }}>
+                <div className="row no-gutters" >
                     <div className="text-center col"><div className="container" style={{ display: "inline" }}>
-                        <ScrollAnimation animateIn="slideInUp" duration={2}>
-                            <FormRequest />
-                        </ScrollAnimation>
+                        <Footer />
                     </div>
                     </div>
                 </div>

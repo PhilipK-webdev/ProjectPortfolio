@@ -5,12 +5,12 @@ import developer from "../Footer/img/developer.svg"
 const Footer = () => {
 
     return (
-        <div className="footer-copyright py-3 text-center" style={{ backgroundColor: "rgb(178, 133, 141)" }}>
+        <div className="footer-copyright py-3 text-center" style={{ backgroundColor: "rgb(178, 133, 141)", borderRadius: "15px" }}>
             <div className="row">
                 <div className="container-fluid">
-                    <p><img src={developer} style={{ width: "30px" }} alt="developer" /> &copy; 2020 FullStack Web Developer, Inc.<br />
+                    <p style={{ color: "white", fontWeight: "bold" }}><img src={developer} style={{ width: "30px" }} alt="developer" /> &copy; 2020 FullStack Web Developer, Inc.<br />
                     Made By Philip Kouchner<br />
-                        <a href="mailto:philipk179@gmail.com" style={{ color: "#55474c" }}>philipk179@gmail.com</a>
+                        <a href="mailto:philipk179@gmail.com" style={{ color: "white" }}>philipk179@gmail.com</a>
                     </p>
 
                 </div>

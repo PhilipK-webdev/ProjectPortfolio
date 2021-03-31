@@ -74,7 +74,7 @@ function App() {
       <div style={{ zIndex: "-5", paddingTop: "75px", position: "relative", backgroundColor: " rgb(222, 166, 175)" }}>
         <footer data-test="footer" className="page-footer font-small pt-4">
           <Contact />
-          <Footer />
+          {/* <Footer /> */}
         </footer>
 
       </div>
