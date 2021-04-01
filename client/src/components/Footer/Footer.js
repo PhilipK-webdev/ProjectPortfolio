@@ -8,7 +8,8 @@ const Footer = () => {
         <div className="footer-copyright py-3 text-center" style={{ backgroundColor: "rgb(178, 133, 141)", borderRadius: "15px" }}>
             <div className="row">
                 <div className="container-fluid">
-                    <p style={{ color: "white", fontWeight: "bold" }}><img src={developer} style={{ width: "30px" }} alt="developer" /> &copy; 2020 FullStack Web Developer, Inc.<br />
+                    <p style={{ color: "white", fontWeight: "bold" }}>
+                        <img src={developer} style={{ width: "30px", objectFit: "contain" }} alt="developer" /> &copy; 2020 FullStack Web Developer, Inc.<br />
                     Made By Philip Kouchner<br />
                         <a href="mailto:philipk179@gmail.com" style={{ color: "white" }}>philipk179@gmail.com</a>
                     </p>

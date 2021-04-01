@@ -68,6 +68,11 @@ function Skill() {
                                 <p className="iconPargraph">Github</p>
                             </i>
                         </div>
+                        <div className="container" id="containerSkill">
+                            <i alt="Jira icon" className="fab fa-jira" id="icon">
+                                <p className="iconPargraph">Jira</p>
+                            </i>
+                        </div>
                     </div>
                 </div>
                 <div className="row no-gutters">
@@ -90,6 +95,11 @@ function Skill() {
                         <div className="container" id="containerSkill">
                             <i className="fab" id="icon" style={{ fontSize: "70px" }}>
                                 <p className="iconPargraph">React-animate</p>
+                            </i>
+                        </div>
+                        <div className="container" id="containerSkill">
+                            <i className="fab" id="icon" style={{ fontSize: "70px" }}>
+                                <p className="iconPargraph">Material-UI</p>
                             </i>
                         </div>
                     </div>

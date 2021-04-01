@@ -1,12 +1,15 @@
 
 #myName{
     font-family: 'Leckerli One', cursive;
-    font-size:1.75rem;
+    font-weight: bold;
+    font-size:1.45rem;
+    text-shadow: 4px -5px 0px rgba(246, 246, 246, 0.959);
 }
 #basic-navbar-nav{
-   
-    font-family: cursive;
-    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: 'Leckerli One', cursive;
+    font-size: 1.45rem;
+    text-shadow: 4px -5px 0px rgba(246, 246, 246, 0.959);
 }
 #container{
     background-color:#dea6af;
