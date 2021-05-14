@@ -19,8 +19,10 @@ const Card = () => {
                                 <div className="mt-3 col-lg-6 col-md-12" id="about">
                                     <ScrollAnimation animateIn="zoomIn">
                                         <strong style={{ fontSize: "30px" }}>Who am I:</strong> <br />
-                                        My name is Philip Kouchner, a B.Sc. graduate, residing in California.
-                                        I like hiking, reading books and am a big sports fan (if you are looking for Ping-Pong player then you found one). <br />
+                                       Hi! My name is Philip Kouchner, a B.Sc. graduate, residing in California.
+                                        I like hiking, reading books and am a big sports fan (if you are looking for Ping-Pong player then you found one).
+                                        I've spent the last 3.5 years working in California,and now coming back to Israel.
+                                         <br />
                                         <strong style={{ fontSize: "30px" }}>Where it all began:</strong> <br />
                                         In 2014, I took the first step towards my career as a web developer
                                         by entering the school of Computer Science in Holon Institute of Technology (HIT) in Israel.Three years later I received my B.Sc. diploma.<br />
