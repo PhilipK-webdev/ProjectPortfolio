@@ -9,14 +9,13 @@ Recently graduaded from UC-Berkley as a full stack web developer.
  
 
 ## Screenshot 
-![](./img/intro.PNG)
+![](./img/project.gif)
 ## Built With
 
 - React
-- JavaScript
-- Node.js - express 
+- JavaScript 
 
 ## Authors
 
 - Philip Kouchner 
-- Heroku link - https://newportfoilio-app.herokuapp.com/
+- Heroku link - http://philipkouchner.com/
