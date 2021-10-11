@@ -24,14 +24,14 @@ const Cards = () => {
                                 <div className="card-title h5 mt-1">StockTracker App</div>
                                 <p className="card-text">
                                     The StockTracker app was developed during a team project.<br />
-                            Operated a team of 4 and was instrumental in successfully completing StockTracker and “project goals, objectives, timeline”.
-                            An app that can provide and help you to understand when and what company to invest by getting information on market trend obtaining news and other factors in the market which assist on decision making,
-                            help you to know how your investments are performing and help you know when it’s time to make changes on your investment.
-                            </p>
+                                    Operated a team of 4 and was instrumental in successfully completing StockTracker and “project goals, objectives, timeline”.
+                                    An app that can provide and help you to understand when and what company to invest by getting information on market trend obtaining news and other factors in the market which assist on decision making,
+                                    help you to know how your investments are performing and help you know when it’s time to make changes on your investment.
+                                </p>
                                 <p className="card-text">Stack:</p>
                                 <p className="card-text">
                                     Sequelize, mySql, Express, Node.js, Javascript , Passport authentication, Bootstrap and Materialize
-                            </p>
+                                </p>
                             </div>
 
                             <div className="card-footer">
@@ -48,7 +48,7 @@ const Cards = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="text-center col-lg col-md-6 col-12 mt-2">
+                    {/* <div className="text-center col-lg col-md-6 col-12 mt-2">
                         <div className="card h-100" style={{ margin: "20px 0px 20px 10px !important" }}>
                             <img className="card-img-top" src={dashboard} alt="Weather App" id="cardImg" />
                             <div className="card-body">
@@ -77,7 +77,7 @@ const Cards = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="text-center col-lg col-md-6 col-12 mt-2">
                         <div className="card h-100" style={{ margin: "20px 0px 20px 10px !important" }}>
                             <img className="card-img-top" src={healt} alt="Health App" id="cardImg" />
@@ -88,11 +88,11 @@ const Cards = () => {
                                     You can search for food items and add logs to your profile,
                                     keeping track of what you’ve eaten, along with a detailed breakdown of the nutritional content of those foods.
                                     As user you want to be able to track you nutritions intake and to see history of what you have eaten.
-                            </p>
+                                </p>
                                 <p className="card-text">Stack:</p>
                                 <p className="card-text">
                                     MERN, Sequelize, mySql, Express, React.js, Node.js, Javascript , Passport authentication, Material-UI
-                            </p>
+                                </p>
                             </div>
                             <div className="card-footer">
                                 <div style={{ display: "inline-block" }}>
@@ -119,11 +119,11 @@ const Cards = () => {
                                     Main goal was to create and establish a program that can help with time management
                                     As user you can add important events to your daily calendar and be able to manage your time effectively.
                                     The flexibility of the app allows you delete and save our daily events as needed.
-                            </p>
+                                </p>
                                 <p className="card-text">Stack:</p>
                                 <p className="card-text">
                                     CSS, Bootstrap ,jQuery , Node.js-moment.js, localstorage.
-                            </p>
+                                </p>
                             </div>
 
                             <div className="card-footer">
@@ -140,7 +140,7 @@ const Cards = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="text-center col-lg col-md-6 col-12  mt-2">
+                    {/* <div className="text-center col-lg col-md-6 col-12  mt-2">
                         <div className="card h-100" style={{ margin: "20px 0px 20px 10px !important" }}>
                             <img className="card-img-top" src={gifSearch} alt="Gif Search App" id="cardImg" />
                             <div className="card-body">
@@ -149,11 +149,11 @@ const Cards = () => {
                                     As a user you can search for a gif ,
                                     and view random results. With the same search input
                                     you can get 5 top sub reddit on the subject that you where looking for .
-                            </p>
+                                </p>
                                 <p className="card-text">Stack:</p>
                                 <p className="card-text">
                                     CSS,HTML,Bootstrap ,jQuery,giphy api and reddit api.
-                            </p>
+                                </p>
                             </div>
 
                             <div className="card-footer">
@@ -169,7 +169,7 @@ const Cards = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="text-center col-lg col-md-6 col-12  mt-2">
                         <div className="card h-100" style={{ margin: "20px 0px 20px 10px !important" }}>
                             <img className="card-img-top" src={mySQL} alt="Health App" id="cardImg" />
@@ -178,11 +178,11 @@ const Cards = () => {
                                 <p className="card-text">
                                     A CMS - Content Management System for managing a company's employees .
                                     As a HR user of the app I want to be able to add a new employee to the company
-                            </p>
+                                </p>
                                 <p className="card-text">Stack:</p>
                                 <p className="card-text">
                                     Node.js, Inquirer, Sequelize, mySql, Node.js, Javascript
-                            </p>
+                                </p>
                             </div>
                             <div className="card-footer">
                                 <div style={{ display: "inline-block" }}>

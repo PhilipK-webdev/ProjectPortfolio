@@ -5,14 +5,13 @@ html {
   }
 
 footer{
-    background-color: rgb(222, 166, 175);
+    background-color:rgb(14, 11, 22);
 }
 
 #intro{
-
     font-size: 7rem; color: rgb(255, 255, 255); 
     font-family: Alice;
-    background-color:#dea6af;
+    /* background-color:#dea6af; */
     height: 100vh;
 }
 #webDev{
@@ -28,7 +27,8 @@ footer{
     animation-duration: 2s;
     animation-name: bounceIn;
     font-size: 80px;
-    font-family: 'Leckerli One', cursive;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
   }
 
 @keyframes bounceIn {

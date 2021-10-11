@@ -1,5 +1,6 @@
 import React from 'react'
-import avatar from "../Cards/img/myAvatar.png"
+import avatar from "../Cards/img/myAvatar.png";
+import me from '../Cards/img/me.jpg'
 import "../Cards/Card.css"
 import ScrollAnimation from 'react-animate-on-scroll';
 const Card = () => {
@@ -13,7 +14,7 @@ const Card = () => {
                             <div className="row m-0">
                                 <div className="col-lg-1"></div>
                                 <div className="col-lg-3 col-md-12">
-                                    <img src={avatar} className="img-fluid pt-3" id="avatar" alt="" />
+                                    <img src={me} className="img-fluid pt-3" id="myself" alt="" />
                                 </div>
 
                                 <div className="mt-3 col-lg-6 col-md-12" id="about">
@@ -22,17 +23,17 @@ const Card = () => {
                                         Hi! My name is Philip Kouchner, a B.Sc. graduate, residing in Israel.
                                         I like hiking, reading books and am a big sports fan (if you are looking for Ping-Pong player then you found one).
                                         I've spent the last 3.5 years working in California,and now coming back to Israel.
-                                         <br />
+                                        <br />
                                         <strong style={{ fontSize: "30px" }}>Where it all began:</strong> <br />
                                         In 2014, I took the first step towards my career as a web developer
                                         by entering the school of Computer Science in Holon Institute of Technology (HIT) in Israel.Three years later I received my B.Sc. diploma.<br />
                                         <strong style={{ fontSize: "30px" }}>What else:</strong> <br />
                                         Seeking to broaden my knowledge, I took a “Full Stack Web Developer”
-                                         class at UC Berkeley Extension and am a fresh graduate (September 2020) with a 4.0 GPA.<br />
+                                        class at UC Berkeley Extension and am a fresh graduate (September 2020) with a 4.0 GPA.<br />
                                         <strong style={{ fontSize: "30px" }}>Where I am now:</strong> <br />
-                                          Currently seeking for position as a front end, back end or full stack developer.
-                                          I’m always looking to evolve and keep up with the latest tech in a rapidly changing world.
-                                     </ScrollAnimation>
+                                        Currently seeking for position as a front end, back end or full stack developer.
+                                        I’m always looking to evolve and keep up with the latest tech in a rapidly changing world.
+                                    </ScrollAnimation>
                                 </div>
 
                                 <div className="col-lg-2"></div>

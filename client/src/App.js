@@ -14,10 +14,10 @@ function App() {
       <div style={{ position: " relative", minHeight: "620px", marginBottom: "0px" }}>
         <div style={{ position: "relative", top: "0px", minHeight: "545px", width: "100%", zIndex: "1" }}>
           <Nav />
-          <div minheight="620" style={{ height: "100%", width: "100%", position: "absolute", top: "0px", left: "0px", zIndex: "-1", backgroundColor: "rgb(222, 166, 175)" }}>
+          <div minheight="620" style={{ height: "100%", width: "100%", position: "absolute", top: "0px", left: "0px", zIndex: "-1", backgroundColor: "rgb(14, 11, 22)" }}>
             <div style={{ height: "100%" }}></div>
             <svg preserveAspectRatio="none" viewBox="0 0 100 102" version="1.1" xmlns="http://www.w3.org/2000/svg"
-              style={{ width: "100%", height: "75px", position: "relative", top: "-1px" }}><path d="M0 0 L50 100 L100 0 Z" fill="#dea6af"></path></svg>
+              style={{ width: "100%", height: "75px", position: "relative", top: "-1px" }}><path d="M0 0 L50 100 L100 0 Z" fill="#0e0b16"></path></svg>
           </div>
           <div className="container-fluid p-0">
             <div className="text-center col" id="intro">
@@ -25,11 +25,11 @@ function App() {
                 <ScrollAnimation animateIn="slideInDown">
                   <div id="name">
                     Kouchner Philip
-                </div>
+                  </div>
 
                   <div className="pb-5 mb-2 col" id="webDev">
                     Software Engineer - Full Stack
-                </div>
+                  </div>
                 </ScrollAnimation>
               </div>
             </div>
@@ -52,10 +52,10 @@ function App() {
           <div style={{ position: "relative", top: "0px", minHeight: "500px", width: "100%", zIndex: "1" }}>
             <Cards />
           </div>
-          <div minheight="675" style={{ height: "100%", width: "100%", position: "absolute", top: "0px", left: " 0px", zIndex: "-3", backgroundColor: "rgb(222, 166, 175)" }}>
+          <div minheight="675" style={{ height: "100%", width: "100%", position: "absolute", top: "0px", left: " 0px", zIndex: "-3", backgroundColor: "rgb(14, 11, 22)" }}>
             <div style={{ height: "100%" }}></div>
             <svg preserveAspectRatio="none" viewBox="0 0 100 102" version="1.1" xmlns="http://www.w3.org/2000/svg"
-              style={{ width: "100%", height: "75px", position: "relative", top: "-1px" }}><path d="M0 0 L50 100 L100 0 Z" fill="#dea6af"></path></svg></div>
+              style={{ width: "100%", height: "75px", position: "relative", top: "-1px" }}><path d="M0 0 L50 100 L100 0 Z" fill="#0e0b16"></path></svg></div>
         </div>
         <div style={{ position: "relative", minHeight: "675px", marginBottom: "0px" }} >
           <div style={{ height: "100px" }}></div>
@@ -71,10 +71,9 @@ function App() {
 
       </div>
 
-      <div style={{ zIndex: "-5", paddingTop: "75px", position: "relative", backgroundColor: " rgb(222, 166, 175)" }}>
+      <div style={{ zIndex: "-5", paddingTop: "75px", position: "relative", backgroundColor: "rgb(14, 11, 22)" }}>
         <footer data-test="footer" className="page-footer font-small pt-4">
           <Contact />
-          {/* <Footer /> */}
         </footer>
 
       </div>

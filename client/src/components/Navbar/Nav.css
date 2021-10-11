@@ -1,22 +1,24 @@
 
 #myName{
-    font-family: 'Leckerli One', cursive;
+    /* font-family: 'Leckerli One', cursive; */
     font-weight: bold;
     font-size:1.45rem;
-    text-shadow: 4px -5px 0px rgba(246, 246, 246, 0.959);
+    /* text-shadow: 4px -5px 0px rgba(246, 246, 246, 0.959); */
 }
 #basic-navbar-nav{
     font-weight: bold;
-    font-family: 'Leckerli One', cursive;
+    /* font-family: 'Leckerli One', cursive; */
     font-size: 1.45rem;
-    text-shadow: 4px -5px 0px rgba(246, 246, 246, 0.959);
+    /* text-shadow: 4px -5px 0px rgba(246, 246, 246, 0.959); */
+    /* color:rgb(0, 0, 0) !important; */
 }
 #container{
-    background-color:#dea6af;
+    background-color:rgb(14, 11, 22);
     height: 50vh;
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
-.link:hover{
+/* .link:hover{
     cursor: pointer;
-}
+    color: black;
+} */
