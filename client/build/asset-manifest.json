@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "./static/css/main.06a357dc.chunk.css",
-    "main.js": "./static/js/main.8a4d9d93.chunk.js",
-    "main.js.map": "./static/js/main.8a4d9d93.chunk.js.map",
+    "main.css": "./static/css/main.9f8f840d.chunk.css",
+    "main.js": "./static/js/main.818bee48.chunk.js",
+    "main.js.map": "./static/js/main.818bee48.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.8b0ae790.js",
     "runtime-main.js.map": "./static/js/runtime-main.8b0ae790.js.map",
-    "static/js/2.f8a6008c.chunk.js": "./static/js/2.f8a6008c.chunk.js",
-    "static/js/2.f8a6008c.chunk.js.map": "./static/js/2.f8a6008c.chunk.js.map",
+    "static/js/2.205f8588.chunk.js": "./static/js/2.205f8588.chunk.js",
+    "static/js/2.205f8588.chunk.js.map": "./static/js/2.205f8588.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.32e09280b510988a90a722626a3ccedc.js": "./precache-manifest.32e09280b510988a90a722626a3ccedc.js",
+    "precache-manifest.8a9c4d6880d2a6abd645a880733b820d.js": "./precache-manifest.8a9c4d6880d2a6abd645a880733b820d.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.06a357dc.chunk.css.map": "./static/css/main.06a357dc.chunk.css.map",
-    "static/js/2.f8a6008c.chunk.js.LICENSE.txt": "./static/js/2.f8a6008c.chunk.js.LICENSE.txt",
+    "static/css/main.9f8f840d.chunk.css.map": "./static/css/main.9f8f840d.chunk.css.map",
+    "static/js/2.205f8588.chunk.js.LICENSE.txt": "./static/js/2.205f8588.chunk.js.LICENSE.txt",
     "static/media/HEALT.png": "./static/media/HEALT.fc74bb17.png",
     "static/media/Philip_Kouchner.pdf": "./static/media/Philip_Kouchner.089277dd.pdf",
     "static/media/dashboard.png": "./static/media/dashboard.0cc7ed87.png",
     "static/media/developer.svg": "./static/media/developer.d87ca8ca.svg",
     "static/media/gifSearch.png": "./static/media/gifSearch.df9292af.png",
+    "static/media/me.jpg": "./static/media/me.8e7875fe.jpg",
     "static/media/myAvatar.png": "./static/media/myAvatar.6cf72474.png",
     "static/media/mySQL.png": "./static/media/mySQL.7eb682b2.png",
     "static/media/stockTracker.PNG": "./static/media/stockTracker.e1388947.PNG",
@@ -24,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8b0ae790.js",
-    "static/js/2.f8a6008c.chunk.js",
-    "static/css/main.06a357dc.chunk.css",
-    "static/js/main.8a4d9d93.chunk.js"
+    "static/js/2.205f8588.chunk.js",
+    "static/css/main.9f8f840d.chunk.css",
+    "static/js/main.818bee48.chunk.js"
   ]
 }

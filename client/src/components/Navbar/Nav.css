@@ -13,7 +13,8 @@
     /* color:rgb(0, 0, 0) !important; */
 }
 #container{
-    background-color:rgb(14, 11, 22);
+    background-color:#000000;
+    /* background-color:rgb(14, 11, 22); */
     height: 50vh;
     padding-left: 0 !important;
     padding-right: 0 !important;

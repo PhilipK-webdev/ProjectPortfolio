@@ -7,15 +7,18 @@ import Footer from './components/Footer/Footer';
 import Nav from './components/Navbar/Nav';
 import Skill from './components/Skills/Skill';
 import ScrollAnimation from 'react-animate-on-scroll';
+
 function App() {
 
   return (
+
     <div style={{ position: "relative", zIndex: "0" }} className="m-0 p-0">
       <div style={{ position: " relative", minHeight: "620px", marginBottom: "0px" }}>
         <div style={{ position: "relative", top: "0px", minHeight: "545px", width: "100%", zIndex: "1" }}>
           <Nav />
           <div minheight="620" style={{ height: "100%", width: "100%", position: "absolute", top: "0px", left: "0px", zIndex: "-1", backgroundColor: "rgb(14, 11, 22)" }}>
-            <div style={{ height: "100%" }}></div>
+            <div style={{ height: "100%" }}>
+            </div>
             <svg preserveAspectRatio="none" viewBox="0 0 100 102" version="1.1" xmlns="http://www.w3.org/2000/svg"
               style={{ width: "100%", height: "75px", position: "relative", top: "-1px" }}><path d="M0 0 L50 100 L100 0 Z" fill="#0e0b16"></path></svg>
           </div>
@@ -75,15 +78,11 @@ function App() {
         <footer data-test="footer" className="page-footer font-small pt-4">
           <Contact />
         </footer>
-
       </div>
     </div >
 
-
-
-
-
   );
 }
+
 
 export default App;

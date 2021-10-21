@@ -1,10 +1,10 @@
 import React from 'react'
-import dashboard from "../Cards/img/dashboard.png"
 import work from "../Cards/img/work-day.png"
 import healt from "../Cards/img/HEALT.png"
-import gifSearch from "../Cards/img/gifSearch.png"
+import weather from "../Cards/img/Weather.png";
 import stockTracker from "../Cards/img/stockTracker.PNG"
-import mySQL from "../Cards/img/mySQL.png"
+import mySQL from "../Cards/img/mySQL.png";
+import trivia from "../Cards/img/triviaGame.PNG";
 import "../Cards/Cards.css"
 import ScrollAnimation from 'react-animate-on-scroll';
 const Cards = () => {
@@ -48,36 +48,36 @@ const Cards = () => {
                             </div>
                         </div>
                     </div>
-                    {/* <div className="text-center col-lg col-md-6 col-12 mt-2">
+                    <div className="text-center col-lg col-md-6 col-12 mt-2">
                         <div className="card h-100" style={{ margin: "20px 0px 20px 10px !important" }}>
-                            <img className="card-img-top" src={dashboard} alt="Weather App" id="cardImg" />
+                            <img className="card-img-top" src={weather} alt="Weather App" id="cardImg" />
                             <div className="card-body">
-                                <div className="card-title h5">Weather Dashboard</div>
+                                <div className="card-title h5">Weather App</div>
                                 <p className="card-text">
                                     An app that can provide information for users and help them to planning their trip somewhere in the world.
                                     As user you can look for any city in the world and get all the data such as :
                                     Temperature, Humidity, Wind Speed and UV.
-                            </p>
+                                </p>
                                 <p className="card-text">Stack:</p>
                                 <p className="card-text">
-                                    CSS,HTML,Bootstrap and jQuery and openweathermap third party API, Ajax
-                            </p>
+                                    CSS,HTML,Material-UI,React,redux,axios and https://developer.accuweather.com/ as third party API.
+                                </p>
                             </div>
 
                             <div className="card-footer">
                                 <div style={{ display: "inline-block" }}>
-                                    <a href="https://github.com/PhilipK-webdev/Weather-Dashboard" >
+                                    <a href="https://github.com/PhilipK-webdev/WeatherApp" >
                                         <i className="fab fa-github" style={{ color: "rgb(222, 166, 175)", margin: "10px", fontSize: "27px" }}></i>
                                     </a>
                                 </div>
                                 <div style={{ display: "inline-block" }}>
-                                    <a href="https://philipk-webdev.github.io/Weather-Dashboard/" >
+                                    <a href="https://philipk-webdev.github.io/Philip-Kouchner-07-20-2021/" >
                                         <i className="fas fa-external-link-alt" style={{ color: "rgb(222, 166, 175)", margin: "10px", fontSize: "27px" }}></i>
                                     </a>
                                 </div>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
                     <div className="text-center col-lg col-md-6 col-12 mt-2">
                         <div className="card h-100" style={{ margin: "20px 0px 20px 10px !important" }}>
                             <img className="card-img-top" src={healt} alt="Health App" id="cardImg" />
@@ -140,36 +140,35 @@ const Cards = () => {
                             </div>
                         </div>
                     </div>
-                    {/* <div className="text-center col-lg col-md-6 col-12  mt-2">
+                    <div className="text-center col-lg col-md-6 col-12  mt-2">
                         <div className="card h-100" style={{ margin: "20px 0px 20px 10px !important" }}>
-                            <img className="card-img-top" src={gifSearch} alt="Gif Search App" id="cardImg" />
+                            <img className="card-img-top" src={trivia} alt="Trivia GameApp" id="cardImg" />
                             <div className="card-body">
-                                <div className="card-title h5">Gif Search App</div>
+                                <div className="card-title h5">Trivia Game App</div>
                                 <p className="card-text">
-                                    As a user you can search for a gif ,
-                                    and view random results. With the same search input
-                                    you can get 5 top sub reddit on the subject that you where looking for .
+                                    Main goal of the app is to able to check your general knowledge.
+                                    As a user I want to be able to play a trivia game.
                                 </p>
                                 <p className="card-text">Stack:</p>
                                 <p className="card-text">
-                                    CSS,HTML,Bootstrap ,jQuery,giphy api and reddit api.
+                                    CSS,HTML,React,axios and third party API (https://opentdb.com/).
                                 </p>
                             </div>
 
                             <div className="card-footer">
                                 <div style={{ display: "inline-block" }}>
-                                    <a href="https://github.com/PhilipK-webdev/Gif-search-app" >
+                                    <a href="https://github.com/PhilipK-webdev/TriviaGame" >
                                         <i className="fab fa-github" style={{ color: "rgb(222, 166, 175)", margin: "10px", fontSize: "27px" }}></i>
                                     </a>
                                 </div>
                                 <div style={{ display: "inline-block" }}>
-                                    <a href="https://philipk-webdev.github.io/Gif-search-app/" >
+                                    <a href="https://philipk-webdev.github.io/TriviaGame/" >
                                         <i className="fas fa-external-link-alt" style={{ color: "rgb(222, 166, 175)", margin: "10px", fontSize: "27px" }}></i>
                                     </a>
                                 </div>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
                     <div className="text-center col-lg col-md-6 col-12  mt-2">
                         <div className="card h-100" style={{ margin: "20px 0px 20px 10px !important" }}>
                             <img className="card-img-top" src={mySQL} alt="Health App" id="cardImg" />
