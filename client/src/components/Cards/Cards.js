@@ -71,7 +71,7 @@ const Cards = () => {
                                     </a>
                                 </div>
                                 <div style={{ display: "inline-block" }}>
-                                    <a href="https://philipk-webdev.github.io/Philip-Kouchner-07-20-2021/" >
+                                    <a href="https://philipk-webdev.github.io/WeatherApp/" >
                                         <i className="fas fa-external-link-alt" style={{ color: "rgb(222, 166, 175)", margin: "10px", fontSize: "27px" }}></i>
                                     </a>
                                 </div>

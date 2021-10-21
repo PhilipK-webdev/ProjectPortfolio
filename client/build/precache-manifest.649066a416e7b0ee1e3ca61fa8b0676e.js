@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "827ce608fa01c22ee0ce73c82b7bb9a9",
+    "revision": "ffcec8586a2fbe4b9647f3ec36b17b1f",
     "url": "./index.html"
   },
   {
-    "revision": "d041b1ffcc23590935fc",
-    "url": "./static/css/main.9f8f840d.chunk.css"
+    "revision": "c188199c62e09329687e",
+    "url": "./static/css/main.b5361c0b.chunk.css"
   },
   {
-    "revision": "cf8095b1cd9bf7fece59",
-    "url": "./static/js/2.205f8588.chunk.js"
+    "revision": "cb36992ab0758f6fe108",
+    "url": "./static/js/2.c4b83919.chunk.js"
   },
   {
     "revision": "d2966845b94a3318bf32eecc7af8015d",
-    "url": "./static/js/2.205f8588.chunk.js.LICENSE.txt"
+    "url": "./static/js/2.c4b83919.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d041b1ffcc23590935fc",
-    "url": "./static/js/main.818bee48.chunk.js"
+    "revision": "c188199c62e09329687e",
+    "url": "./static/js/main.b632aad3.chunk.js"
   },
   {
     "revision": "d90c5b93796701d5570a",
@@ -32,16 +32,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/Philip_Kouchner.089277dd.pdf"
   },
   {
-    "revision": "0cc7ed871be2887dbe8d4387a020767d",
-    "url": "./static/media/dashboard.0cc7ed87.png"
+    "revision": "d0c6eda14dc19f05a3aa344eeca30c3c",
+    "url": "./static/media/Weather.d0c6eda1.png"
   },
   {
     "revision": "d87ca8ca98c64dcde0ac6c9aaa5abe14",
     "url": "./static/media/developer.d87ca8ca.svg"
-  },
-  {
-    "revision": "df9292af6180bd648509df48e86cd398",
-    "url": "./static/media/gifSearch.df9292af.png"
   },
   {
     "revision": "8e7875fe439e693b707a1f0f2f15dfb7",
@@ -58,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e1388947d696df9909358b8fbedb109e",
     "url": "./static/media/stockTracker.e1388947.PNG"
+  },
+  {
+    "revision": "7911d49aed49a487f4e3b451b8028abe",
+    "url": "./static/media/triviaGame.7911d49a.PNG"
   },
   {
     "revision": "0f508752fc2536f8e1d3e0ed3edf372d",
