@@ -6,7 +6,7 @@ import ResumeDocument from '../ResumeDocument/ResumeDocument'
 import Footer from '../Footer/Footer';
 const Contact = () => {
     return (
-        <div className="container-fluid" id="contact">
+        <div className="container-fluid" id="contact" style={{ backgroundColor: "#000000" }}>
             <div className="row">
                 <div className="col-md-3"></div>
                 <div className="text-center col-md-6">

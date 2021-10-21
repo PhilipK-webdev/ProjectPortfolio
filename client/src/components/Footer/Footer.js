@@ -5,7 +5,7 @@ import developer from "../Footer/img/developer.svg"
 const Footer = () => {
 
     return (
-        <div className="footer-copyright py-3 text-center" style={{ backgroundColor: "rgb(14, 11, 22)", borderRadius: "15px" }}>
+        <div className="footer-copyright py-3 text-center" style={{ backgroundColor: "#000000", borderRadius: "15px" }}>
             <div className="row">
                 <div className="container-fluid">
                     <p style={{ color: "white", fontWeight: "bold" }}>
