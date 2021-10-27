@@ -5,6 +5,7 @@ import weather from "../Cards/img/Weather.png";
 import stockTracker from "../Cards/img/stockTracker.PNG"
 import mySQL from "../Cards/img/mySQL.png";
 import trivia from "../Cards/img/triviaGame.PNG";
+import product from "../Cards/img/Product.png";
 import "../Cards/Cards.css"
 import ScrollAnimation from 'react-animate-on-scroll';
 const Cards = () => {
@@ -112,28 +113,27 @@ const Cards = () => {
                 <div className="row m-0 mt-2 mb-3">
                     <div className="text-center col-lg col-md-6 col-12  mt-2">
                         <div className="card h-100" style={{ margin: "20px 0px 20px 10px !important" }}>
-                            <img className="card-img-top" src={work} alt="WorkDay App" id="cardImg" />
+                            <img className="card-img-top" src={product} alt="Product App" id="cardImg" />
                             <div className="card-body">
-                                <div className="card-title h5 mt-1">Work Day Scheduler App</div>
+                                <div className="card-title h5 mt-1">Product App</div>
                                 <p className="card-text">
-                                    Main goal was to create and establish a program that can help with time management
-                                    As user you can add important events to your daily calendar and be able to manage your time effectively.
-                                    The flexibility of the app allows you delete and save our daily events as needed.
+                                    As a Shop Owner I want to look for a specific product. I can lookup for the product by
+                                    Barcode or Supplier name or by the name of the product. I can change the price and update the product.
                                 </p>
                                 <p className="card-text">Stack:</p>
                                 <p className="card-text">
-                                    CSS, Bootstrap ,jQuery , Node.js-moment.js, localstorage.
+                                    HTML5,CSS,Material Ui,React,express,MongoDB,AtlasDB
                                 </p>
                             </div>
 
                             <div className="card-footer">
                                 <div style={{ display: "inline-block" }}>
-                                    <a href="https://github.com/PhilipK-webdev/WorkDay-Scheduler" >
+                                    <a href="https://github.com/PhilipK-webdev/My_Product" >
                                         <i className="fab fa-github" style={{ color: "rgb(222, 166, 175)", margin: "10px", fontSize: "27px" }}></i>
                                     </a>
                                 </div>
                                 <div style={{ display: "inline-block" }}>
-                                    <a href="https://philipk-webdev.github.io/WorkDay-Scheduler/" >
+                                    <a href="https://mernproductapp.herokuapp.com/" >
                                         <i className="fas fa-external-link-alt" style={{ color: "rgb(222, 166, 175)", margin: "10px", fontSize: "27px" }}></i>
                                     </a>
                                 </div>
