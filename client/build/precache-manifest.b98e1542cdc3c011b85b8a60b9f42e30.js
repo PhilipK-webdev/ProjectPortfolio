@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "30636f9b717f78f4caccbe36af449982",
+    "revision": "9d2877123bb528cad2347b737bf2bfda",
     "url": "./index.html"
   },
   {
-    "revision": "e026a8f037b0256098c8",
+    "revision": "c859c60cf703182b70cd",
     "url": "./static/css/main.943fd47e.chunk.css"
   },
   {
-    "revision": "cb36992ab0758f6fe108",
-    "url": "./static/js/2.c4b83919.chunk.js"
+    "revision": "3e7d528dd75b2f5cbce8",
+    "url": "./static/js/2.1fdf14d1.chunk.js"
   },
   {
     "revision": "d2966845b94a3318bf32eecc7af8015d",
-    "url": "./static/js/2.c4b83919.chunk.js.LICENSE.txt"
+    "url": "./static/js/2.1fdf14d1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e026a8f037b0256098c8",
-    "url": "./static/js/main.06577dc3.chunk.js"
+    "revision": "c859c60cf703182b70cd",
+    "url": "./static/js/main.b64bd59a.chunk.js"
   },
   {
     "revision": "d90c5b93796701d5570a",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "089277ddbf4e62ccf7e5f605d4c38a2e",
     "url": "./static/media/Philip_Kouchner.089277dd.pdf"
+  },
+  {
+    "revision": "7e4a450da3eadacee77b77576f7317bf",
+    "url": "./static/media/Product.7e4a450d.png"
   },
   {
     "revision": "d0c6eda14dc19f05a3aa344eeca30c3c",

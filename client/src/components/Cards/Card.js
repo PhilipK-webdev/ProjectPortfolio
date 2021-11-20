@@ -6,9 +6,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 const Card = () => {
     return (
         <div>
-
             <ScrollAnimation animateIn="fadeIn">
-
                 <div className="container-fluid m-0" id="about">
                     <h1 className="display-2 text-center mt-3 mb-4" id="aboutMe">About Me</h1>
                     <div className="row mb-4 m-0">
@@ -36,7 +34,7 @@ const Card = () => {
                                             Seeking to broaden my knowledge, I took a “Full Stack Web Developer”
                                             class at UC Berkeley Extension and am a fresh graduate (September 2020) with a 4.0 GPA.<br />
                                             <strong style={{ fontSize: "30px" }}>Where I am now:</strong> <br />
-                                            Currently seeking for position as a front end, back end or full stack developer.
+                                            Currently working at Protouch LTD company as a web developer.
                                             I’m always looking to evolve and keep up with the latest tech in a rapidly changing world.
                                         </ScrollAnimation>
                                     </div>
