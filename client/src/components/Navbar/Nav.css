@@ -1,9 +1,31 @@
 
 #myName{
-    /* font-family: 'Leckerli One', cursive; */
-    font-weight: bold;
-    font-size:1.45rem;
-    /* text-shadow: 4px -5px 0px rgba(246, 246, 246, 0.959); */
+    background-image: url('./image/triangle.png');
+    background-repeat: no-repeat;
+    height: 13vh;
+    position: relative;
+    width: 10vw;
+    top: 3vh;
+    left: 2vw;
+}
+.p-tag{
+    position: absolute;
+    left: 0vw;
+    width: 30%;
+    font-size: inherit;
+    height: 3vh;
+    text-align: center;
+    top: 2vh;
+    font-size: 2.5vw;
+}
+span{
+color:rgba(92, 173, 169, 1);
+font-family: 'Abel';
+font-style: normal;
+font-weight: 400;
+font-size: 1.5vw;
+line-height: 2.2vh; 
+width: 3vw;
 }
 #basic-navbar-nav{
     font-weight: bold;
@@ -13,9 +35,9 @@
     /* color:rgb(0, 0, 0) !important; */
 }
 #container{
-    background-color:#000000;
+    background-color:#0A1930;
     /* background-color:rgb(14, 11, 22); */
-    height: 50vh;
+    height: 10vh;
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
