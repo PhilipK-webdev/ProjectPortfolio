@@ -1,0 +1,83 @@
+$color-white : white;
+$color-light-green:rgba(92, 173, 169, 1);
+$color-primary:rgb(102, 187, 118);
+.nav{
+    position: relative;
+    &__navigation{
+        height: 10vh;
+        padding: 1rem 2rem;
+        font-size: 1.8rem;
+        display: flex;
+        justify-content: flex-end;
+        &__nav{
+            display: inline-block;
+            color:$color-white;
+            height: 8vh;
+        }
+    
+        &__list{
+            list-style: none;
+            text-align: center;
+            display: flex;
+        }
+    
+      
+        &__link {
+            &:link,
+            &:visited {
+                display: inline-block;
+                font-size: 2.5rem;
+                font-weight: 300;
+                padding: 1rem 2rem;
+                color: $color-white;
+                text-decoration: none;
+                transition: all .4s;
+                span {
+                    margin-right: 1rem;
+                    display: inline-block;
+                    color:$color-light-green;
+                    font-weight: 400;
+                    
+                }
+               
+            }
+           
+            &:hover,
+            &:active {
+                color: $color-primary;
+                transform: translateX(1rem);
+            }
+        }
+    
+        &__item:last-child{
+            border: 2px solid $color-light-green;
+            border-radius: 1.3rem;
+        }
+        &__logo{
+            width: 6.5rem;
+            height: 6.5rem;
+            background-image: url('./image/triangle.png');
+            background-repeat: no-repeat;
+            position: absolute;
+            left: 6rem;
+            top: 3rem;
+        }
+        &__letter{
+        display: inline-block; 
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        font-size: 4.2rem;
+        display: block;
+        height: 6rem;
+        padding: 1rem 2rem;
+        position: absolute;
+        top:-1rem;
+        right: .5rem;
+        &:hover,
+        &:active {
+            color: $color-primary;
+        }
+        }
+    }
+}
