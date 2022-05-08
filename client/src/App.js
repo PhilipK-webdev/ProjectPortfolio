@@ -28,7 +28,12 @@ function App() {
     <div className='container__main'>
       {isLoading ? <div className='container__main--gif'>
         {showLogo && showLogo}
-      </div> : <Nav />}
+      </div> :
+        <>
+          <Nav />
+          <Card />
+        </>
+      }
 
     </div>
     // <div style={{ position: "relative", zIndex: "0" }} className="m-0 p-0">

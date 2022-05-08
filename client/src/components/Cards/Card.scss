@@ -1,0 +1,186 @@
+$color-white : white;
+$color-light-green:#5CADA9;
+$color-primary:rgb(102, 187, 118);
+
+.card {
+    max-width: 120rem;
+    min-height: 50rem;
+    margin: 16rem auto;
+
+    &__header-title {
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3.5rem;
+        line-height: 4.2rem;
+        color: $color-light-green;
+        margin: 1rem 2rem;
+    }
+
+    &__title {
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 96px;
+        color: rgb(206, 218, 250);
+
+        &__span {
+            color: rgb(138, 147, 179)
+        }
+    }
+
+    &__paragraph {
+        margin-top: 3rem;
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2rem;
+        line-height: 2.4rem;
+        color: #8A93B3;
+
+        &__bold {
+            color: $color-light-green;
+        }
+    }
+
+    &__about {
+        margin: 40rem 0;
+        min-height: 50rem;
+        padding: 1rem 2rem;
+
+        &__header {
+            display: flex;
+
+            &__title {
+                font-family: 'Aleo';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 4rem;
+                line-height: 4.8rem;
+                color: #FFFFFF;
+                flex: 0 0 20%;
+            }
+
+            &__border {
+                border-bottom: 1px solid #5CADA9;
+                flex: 1;
+                margin-bottom: 1rem;
+            }
+
+        }
+
+        &__content {
+            display: flex;
+
+            &__image {
+                width: 44rem;
+                height: 44.6rem;
+                border-radius: 20px;
+            }
+
+            &__body {
+                margin-top: 3rem;
+                font-family: 'Aleo';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 2rem;
+                line-height: 2.4rem;
+                color: rgba(114, 123, 154, 1);
+                width: 90%;
+
+                &__bold {
+                    color: $color-light-green;
+                }
+
+                &__border {
+                    border-left: 1px solid #5CADA9;
+                    margin-right: 1rem;
+                }
+            }
+        }
+
+
+        &__title {
+
+            font-family: 'Aleo';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            color: #5CADA9;
+        }
+
+        &__tech {
+            display: flex;
+            margin: 2rem 0rem;
+            min-height: 20rem;
+            width: 50%;
+
+            &__1 li {
+                font-family: 'Aleo';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 2.5rem;
+                line-height: 2.4rem;
+                color: #727B9A;
+                margin-bottom: 1rem;
+                list-style: none;
+                margin-left: -3rem;
+            }
+
+            &__2 li {
+                font-family: 'Aleo';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 2.5rem;
+                line-height: 2.4rem;
+                color: #727B9A;
+                margin-bottom: 1rem;
+                list-style: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .card {
+        &__header-title {
+            margin: 2rem 2rem;
+        }
+
+        &__about {
+            &__header {
+                display: flex;
+
+                &__title {
+                    font-family: 'Aleo';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 3rem;
+                    line-height: 4.8rem;
+                    color: #FFFFFF;
+                    flex: 0 0 20%;
+                }
+
+                &__border {
+                    border-bottom: 1px solid #5CADA9;
+                    flex: 1;
+                    margin-bottom: 1rem;
+                }
+
+            }
+
+            &__content {
+                display: flex;
+
+                &__image {
+                    margin: auto 0;
+                }
+
+            }
+        }
+
+    }
+
+}
