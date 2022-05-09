@@ -34,7 +34,6 @@ function App() {
           <Card />
         </>
       }
-
     </div>
     // <div style={{ position: "relative", zIndex: "0" }} className="m-0 p-0">
     //   <div style={{ position: " relative", minHeight: "620px", marginBottom: "0px" }}>
