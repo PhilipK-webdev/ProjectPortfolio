@@ -76,6 +76,7 @@ $color-primary:rgb(102, 187, 118);
             &__image {
                 width: 33%;
                 border-radius: 20px;
+                background-size: contain;
             }
 
             &__body {
@@ -111,32 +112,21 @@ $color-primary:rgb(102, 187, 118);
         }
 
         &__tech {
-            display: flex;
             margin: 2rem 0rem;
             min-height: 20rem;
             width: 50%;
+            font-size: 2.25rem;
+            color: #727B9A;
 
-            &__1 li {
-                font-family: 'Aleo';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 2.5rem;
-                line-height: 2.4rem;
-                color: #727B9A;
-                margin-bottom: 1rem;
+            &__1 {
                 list-style: none;
-                margin-left: -3rem;
-            }
+                display: flex;
+                flex-wrap: wrap;
 
-            &__2 li {
-                font-family: 'Aleo';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 2.5rem;
-                line-height: 2.4rem;
-                color: #727B9A;
-                margin-bottom: 1rem;
-                list-style: none;
+                li {
+                    flex: 0 0 50%;
+                    margin-bottom: .7rem;
+                }
             }
         }
     }
@@ -175,8 +165,13 @@ $color-primary:rgb(102, 187, 118);
 
                 &__image {
                     margin: auto 0;
+                    width: 50%;
                 }
 
+            }
+
+            &__tech {
+                width: 100%;
             }
         }
 

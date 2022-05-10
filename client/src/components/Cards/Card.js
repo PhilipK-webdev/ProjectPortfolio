@@ -44,10 +44,8 @@ const Card = () => {
                 <div className='card__about__tech'>
                     <ul className='card__about__tech__1'>
                         <li><span style={{ color: '#5CADA9' }}>&#10097;</span> &nbsp;JavaScript(ES6+)</li>
-                        <li><span style={{ color: '#5CADA9' }}>&#10097;</span> &nbsp;React</li>
+                        <li><span style={{ color: '#5CADA9' }}>&#10097;</span> &nbsp;ReactJS</li>
                         <li><span style={{ color: '#5CADA9' }}>&#10097;</span> &nbsp;Sass</li>
-                    </ul>
-                    <ul className='card__about__tech__2' >
                         <li><span style={{ color: '#5CADA9' }}>&#10097;</span> &nbsp;Node.js</li>
                         <li> <span style={{ color: '#5CADA9' }}>&#10097;</span> &nbsp;MongoDB</li>
                         <li> <span style={{ color: '#5CADA9' }}>&#10097;</span> &nbsp;socket.io</li>

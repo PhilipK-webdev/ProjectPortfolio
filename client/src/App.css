@@ -1,61 +1,67 @@
 html {
-    scroll-behavior: smooth;
-    margin: 0;
-    padding: 0;
-    background-color:#0A1930;
-    font-size:62.5%;
-  }
-
-.container__main{
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  background-color: #0A1930;
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
 
-.container__main--gif{
+.container__main {}
+
+.container__main--gif {
   display: flex;
   justify-content: center;
   align-items: center;
   overflow-y: hidden;
 }
 
-.img--main{
+.img--main {
   width: 100vw;
   /* height: 100vh; */
 }
-footer{
-    background-color:rgb(14, 11, 22);
+
+footer {
+  background-color: rgb(14, 11, 22);
 }
 
-#intro{
-    font-size: 7rem; color: rgb(255, 255, 255); 
-    font-family: Alice;
-    /* background-color:#dea6af; */
-    height: 100vh;
+#intro {
+  font-size: 7rem;
+  color: rgb(255, 255, 255);
+  font-family: Alice;
+  /* background-color:#dea6af; */
+  height: 100vh;
 }
-#webDev{
-    font-size: 1.5rem; line-height: 1rem; 
-    line-height: normal;
-    animation-duration: 3s;
-    animation-name: bounceIn;
-    animation-timing-function: ease-in-out;
+
+#webDev {
+  font-size: 1.5rem;
+  line-height: 1rem;
+  line-height: normal;
+  animation-duration: 3s;
+  animation-name: bounceIn;
+  animation-timing-function: ease-in-out;
 }
 
 #name {
-    animation-duration: 2s;
-    animation-name: bounceIn;
-    font-size: 80px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: bold;
-  }
+  animation-duration: 2s;
+  animation-name: bounceIn;
+  font-size: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
 
 @keyframes bounceIn {
-    0% {
-      transform: scale(0.1);
-      opacity: 0;
-    }
-    60% {
-      transform: scale(1.2);
-      opacity: 1;
-    }
-    100% {
-      transform: scale(1);
-    }
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
   }
+
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
