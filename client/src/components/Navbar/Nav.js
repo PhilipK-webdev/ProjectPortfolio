@@ -9,11 +9,6 @@ const Nav = () => {
                 <div className='nav__navigation__logo'>
                     <a href="#about" className="nav__navigation__letter">P</a>
                 </div>
-                <input type='checkbox' id='navi-toggle' className='nav__navigation__checkbox'></input>
-                <label for="navi-toggle" className="nav__navigation__button">
-                    <span className="nav__navigation__icon">&nbsp;</span>
-                </label>
-                <div className="nav__navigation__background">&nbsp;</div>
                 <nav className="nav__navigation__nav">
                     <ul className="nav__navigation__list">
                         <li className="nav__navigation__item">

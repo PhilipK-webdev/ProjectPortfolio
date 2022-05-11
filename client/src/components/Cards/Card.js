@@ -1,6 +1,6 @@
 import React from 'react';
 import "../Cards/Card.scss";
-import me from "./img/me.jpg";
+import me from "./img/menature.jpg";
 const Card = () => {
     return (
         <div className='card'>

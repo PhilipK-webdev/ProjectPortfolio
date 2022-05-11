@@ -1,6 +1,6 @@
 $color-white : white;
-$color-light-green:#5CADA9;
-$color-primary:rgb(102, 187, 118);
+$color-light-green: #5CADA9;
+$color-primary: rgb(102, 187, 118);
 
 .card {
     max-width: 120rem;
@@ -63,7 +63,7 @@ $color-primary:rgb(102, 187, 118);
             }
 
             &__border {
-                border-bottom: 1px solid #5CADA9;
+                border-bottom: 2px solid #5CADA9;
                 flex: 1;
                 margin-bottom: 1rem;
             }
@@ -85,7 +85,7 @@ $color-primary:rgb(102, 187, 118);
                 font-style: normal;
                 font-weight: 400;
                 font-size: 2rem;
-                line-height: 2.4rem;
+                line-height: 3.4rem;
                 color: rgba(114, 123, 154, 1);
                 width: 90%;
 
@@ -94,7 +94,7 @@ $color-primary:rgb(102, 187, 118);
                 }
 
                 &__border {
-                    border-left: 1px solid #5CADA9;
+                    border-left: 2px solid #5CADA9;
                     margin-right: 1rem;
                 }
             }
@@ -106,9 +106,10 @@ $color-primary:rgb(102, 187, 118);
             font-family: 'Aleo';
             font-style: normal;
             font-weight: 400;
-            font-size: 20px;
-            line-height: 24px;
+            font-size: 2.25rem;
+            line-height: 2.4rem;
             color: #5CADA9;
+            margin-top: 2rem;
         }
 
         &__tech {
@@ -132,13 +133,28 @@ $color-primary:rgb(102, 187, 118);
     }
 }
 
-@media screen and (max-width:1100px) {
+@media screen and (max-width:75em) {
     .card {
+        margin: 20rem auto;
+        margin-left: auto;
+        margin-right: auto;
+
         &__header-title {
-            margin: 2rem 2rem;
+            font-size: 3rem;
+        }
+
+        &__title {
+            font-size: 6rem;
+        }
+
+        &__paragraph {
+            font-size: 2.25rem;
+            line-height: 3rem;
         }
 
         &__about {
+            margin: 40rem 0;
+
             &__header {
                 display: flex;
 
@@ -146,32 +162,57 @@ $color-primary:rgb(102, 187, 118);
                     font-family: 'Aleo';
                     font-style: normal;
                     font-weight: 700;
-                    font-size: 3rem;
+                    font-size: 5rem;
                     line-height: 4.8rem;
                     color: #FFFFFF;
                     flex: 0 0 20%;
+                    margin-bottom: 2rem;
+                    margin-right: .7rem;
                 }
 
                 &__border {
-                    border-bottom: 1px solid #5CADA9;
-                    flex: 1;
-                    margin-bottom: 1rem;
+                    border-bottom: 2px solid #5CADA9;
+                    flex: 0 0 75%;
+                    margin-bottom: 2rem;
                 }
 
             }
 
             &__content {
                 display: flex;
+                flex-wrap: wrap;
 
                 &__image {
-                    margin: auto 0;
-                    width: 50%;
+                    width: 45%;
+                    margin-right: auto;
+                    margin-left: auto;
+                    margin-top: 5rem;
                 }
 
+                &__body {
+                    font-size: 2.3rem;
+                    line-height: 5rem;
+                    margin-right: 6rem;
+                }
             }
+
+
+
+            &__title {
+                font-size: 2.3rem;
+                line-height: 3.5rem;
+                margin-top: 5rem;
+                // text-align: center;
+            }
+
 
             &__tech {
                 width: 100%;
+                font-size: 2rem;
+
+                &__1 {
+                    display: flex;
+                }
             }
         }
 
